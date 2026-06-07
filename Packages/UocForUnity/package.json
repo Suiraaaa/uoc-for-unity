@@ -1,0 +1,19 @@
+{
+    "name": "com.suiraaaa.uoc",
+    "version": "0.1.0",
+    "displayName": "UOC for Unity",
+    "description": "Adds Unity support for importing and handling Universal Otoge Chart (.uoc) files.",
+    "unity": "2022.3",
+    "documentationUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/v0.1.0/README.md",
+    "changelogUrl": "https://github.com/Suiraaaa/uoc-for-unity/releases/tag/v0.1.0",
+    "licensesUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/v0.1.0/LICENSE",
+    "license": "MIT",
+    "keywords": [
+        "uoc",
+        "rhythm-game"
+    ],
+    "author": {
+        "name": "Suira",
+        "url": "https://suiraaaa.com"
+    }
+}

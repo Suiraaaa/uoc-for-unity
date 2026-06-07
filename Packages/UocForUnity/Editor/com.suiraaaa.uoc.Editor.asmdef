@@ -1,8 +1,12 @@
 {
-    "name": "UocForUnity",
-    "rootNamespace": "UocForUnity",
-    "references": [],
-    "includePlatforms": [],
+    "name": "com.suiraaaa.uoc.Editor",
+    "rootNamespace": "UocForUnity.Editor",
+    "references": [
+        "GUID:488d708de27d1cf4fa3fed559b428836"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

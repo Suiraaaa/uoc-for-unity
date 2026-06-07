@@ -36,19 +36,11 @@ namespace UocForUnity
         }
 
         /// <summary>
-        /// 保持している文字列からUocStringを生成します。
-        /// </summary>
-        public UocString ToUocString()
-        {
-            return new UocString(value);
-        }
-
-        /// <summary>
         /// 保持しているUOC文字列をパースし、UocObjectを生成します。
         /// </summary>
         public UocObject Parse()
         {
-            var uocString = ToUocString();
+            var uocString = new UocString(value);
             return UocParser.Parse(uocString);
         }
     }

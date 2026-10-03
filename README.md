@@ -36,7 +36,7 @@ UOC（Universal Otoge Chart）は、音楽ゲームの譜面データを表現�
 
 詳細なAPI仕様については、以下のドキュメントを参照してください。
 
-* [`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.4/SPEC.md)
+* [`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.5/SPEC.md)
 * [UOCフォーマット仕様](https://gist.github.com/Suiraaaa/188f4ec0639fde9834d7cb7ef057bf2c)
 
 ## 主な機能
@@ -60,7 +60,7 @@ UOCの具体的な解析処理は、内部で `uoc-for-c-sharp` に委譲され�
 ### Package Managerから導入
 
 ```text
-https://github.com/Suiraaaa/uoc-for-unity.git?path=/Packages/UocForUnity#0.2.1
+https://github.com/Suiraaaa/uoc-for-unity.git?path=/Packages/UocForUnity#0.2.2
 ```
 
 ### `manifest.json` へ追加
@@ -68,7 +68,7 @@ https://github.com/Suiraaaa/uoc-for-unity.git?path=/Packages/UocForUnity#0.2.1
 ```json
 {
   "dependencies": {
-    "com.suiraaaa.uoc": "https://github.com/Suiraaaa/uoc-for-unity.git?path=/Packages/UocForUnity#0.2.1"
+    "com.suiraaaa.uoc": "https://github.com/Suiraaaa/uoc-for-unity.git?path=/Packages/UocForUnity#0.2.2"
   }
 }
 ```
@@ -191,7 +191,7 @@ public sealed class UocPlaybackDataSample : MonoBehaviour
 UOCの解析結果を実際にどのように利用するかは、ゲームごとに異なります。
 このパッケージはゲーム固有の描画、判定、ノート生成処理を提供しません。
 
-`ChartPlaybackData` や関連APIの詳細については、[`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.4/SPEC.md) を参照してください。
+`ChartPlaybackData` や関連APIの詳細については、[`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.5/SPEC.md) を参照してください。
 
 ## `UocAsset` について
 
@@ -221,7 +221,7 @@ Gitタグを指定することで、プロジェクトで使用するパッケ�
 ## ドキュメント
 
 * [`uoc-for-c-sharp`](https://github.com/Suiraaaa/uoc-for-c-sharp)
-* [`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.4/SPEC.md)
+* [`uoc-for-c-sharp` API仕様書](https://github.com/Suiraaaa/uoc-for-c-sharp/blob/0.1.0-alpha.5/SPEC.md)
 * [UOCフォーマット仕様](https://gist.github.com/Suiraaaa/188f4ec0639fde9834d7cb7ef057bf2c)
 * [Releases](https://github.com/Suiraaaa/uoc-for-unity/releases)
 

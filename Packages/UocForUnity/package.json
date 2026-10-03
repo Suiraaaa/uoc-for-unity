@@ -1,12 +1,12 @@
 {
   "name": "com.suiraaaa.uoc",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "displayName": "UOC for Unity",
   "description": "Adds Unity support for importing and handling Universal Otoge Chart (.uoc) files.",
   "unity": "2022.3",
-  "documentationUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/0.2.1/README.md",
-  "changelogUrl": "https://github.com/Suiraaaa/uoc-for-unity/releases/tag/0.2.1",
-  "licensesUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/0.2.1/LICENSE",
+  "documentationUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/0.2.2/README.md",
+  "changelogUrl": "https://github.com/Suiraaaa/uoc-for-unity/releases/tag/0.2.2",
+  "licensesUrl": "https://github.com/Suiraaaa/uoc-for-unity/blob/0.2.2/LICENSE",
   "license": "MIT",
   "keywords": [
     "uoc",
